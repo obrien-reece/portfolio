@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>port-folio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Kareno Traders</h1>
+
+            <p class="title">Proffesional Trader</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:peter@gmail.com" class="contact-link"
+                  >peter@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Whatsapp</p>
+
+                <a href="https://wa.me/+254712373045" class="contact-link">+254712373045</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Nairobi - Kenya</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am an enthusiastic affiliate marketer with a passion for the financial trading industry. Partnering with a leading trading company, I am dedicated to providing you with the best tools, insights, and resources to navigate the dynamic world of trading. 
+            </p>
+
+            <p>
+              My mission is to empower traders, from beginners to seasoned professionals, by connecting them with reliable platforms and lucrative opportunities. With a focus on transparency, education, and support, I strive to help you achieve your trading goals. Join me on this exciting journey and let's unlock the potential of the financial markets together!
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          
+<section class="service">
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-analysis.svg" alt="market analysis icon" width="40" />
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Market Analysis</h4>
+
+        <p class="service-item-text">
+          Providing in-depth market analysis to help you make informed trading decisions.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-education.svg" alt="education icon" width="40" />
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Educational Resources</h4>
+
+        <p class="service-item-text">
+          Offering a range of educational materials to improve your trading knowledge and skills.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-signals.svg" alt="trading signals icon" width="40" />
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Trading Signals</h4>
+
+        <p class="service-item-text">
+          Delivering reliable trading signals to help you identify profitable trading opportunities.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-support.svg" alt="support icon" width="40" />
+      </div>
+
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Customer Support</h4>
+
+        <p class="service-item-text">
+          Providing exceptional customer support to assist you with any trading-related inquiries.
+        </p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Kaspani Traders"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+Kaspani Traders
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+<p>Kaspani Traders is a renowned financial trading firm known for its exceptional services and innovative trading solutions. They specialize in comprehensive market analysis and reliable trading signals. Catering to both novice and experienced traders, Kaspani Traders offers cutting-edge tools and unparalleled support. Their commitment to transparency and client success sets them apart in the financial trading industry.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Aswani Traders"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Aswani Traders
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+  Aswani Traders partnered with Bhanuprakash to develop a comprehensive corporate identity. We were extremely satisfied with the outcome. His extensive experience and dedication to client needs were evident throughout the project. Aswani Traders focuses on delivering top-tier financial trading services, ensuring client success through transparent practices and innovative solutions.
+</p>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        </article>
+
+       <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <!-- <li class="filter-item"> -->
+              <!--   <button data-filter-btn>Web design</button> -->
+              <!-- </li> -->
+              <!---->
+              <!-- <li class="filter-item"> -->
+              <!--   <button data-filter-btn>Applications</button> -->
+              <!-- </li> -->
+              <!---->
+              <!-- <li class="filter-item"> -->
+              <!--   <button data-filter-btn>Web development</button> -->
+              <!-- </li> -->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <!-- <li class="select-item"> -->
+                <!--   <button data-select-item>Web design</button> -->
+                <!-- </li> -->
+                <!---->
+                <!-- <li class="select-item"> -->
+                <!--   <button data-select-item>Applications</button> -->
+                <!-- </li> -->
+                <!---->
+                <!-- <li class="select-item"> -->
+                <!--   <button data-select-item>Web development</button> -->
+                <!-- </li> -->
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Arbitrage"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arbitrage</h3>
+
+                  <p class="project-category">Arbitrage Bot</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
